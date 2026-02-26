@@ -1,0 +1,15 @@
+class EvenOdd{
+    int num;
+    void check(){
+        if(num%2==0)
+            System.out.println("Even");
+        else
+            System.out.println("Odd");
+    }
+    public static void main(String[] args)
+    {
+        EvenOdd obj=new EvenOdd();
+        obj.num=12;
+        obj.check();
+    }
+}
