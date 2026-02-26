@@ -4,7 +4,6 @@ class CheckNumber {
     CheckNumber(int n) {
         num = n;
     }
-
     void check() {
         if (num > 0)
             System.out.println("Number is positive");
